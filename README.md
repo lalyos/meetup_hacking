@@ -47,8 +47,9 @@ cp <url_name>.json visualisation/data
 cd visualisation
 python -m http.server 8000
 ```
-2. Then in a browser navigate to [http://localhost:8000/members.html](http://localhost:8000/members.html)
-3. Kaboom!
+2. Edit the **members.html** and change the `groups` array (around line 50.) to list your groups
+3. Then in a browser navigate to [http://localhost:8000/members.html](http://localhost:8000/members.html)
+4. Kaboom!
 
 ### Web version
 
